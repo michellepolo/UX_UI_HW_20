@@ -1,0 +1,167 @@
+html {
+    scroll-behavior: smooth;
+  }
+.logo{
+      width: 30%;
+      height: auto;
+  }
+nav{
+      display:flex
+
+  }
+#skillsNav{
+      height: 100px;
+      width: 100px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-image: url("../images/Ellipse\ 10skillscircle.png");
+      background-size: 100px;
+      color: white;
+      font-family: Arial, Helvetica, sans-serif;
+      text-decoration: none;
+  }
+#storyNav{
+      height: 100px;
+      width: 100px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-image: url("../images/Ellipse\ 10browncircle.png");
+      background-size: 100px;
+      color: #707070;
+      font-family: Arial, Helvetica, sans-serif;
+      text-decoration: none;
+  }
+#contactNav{
+      height: 100px;
+      width: 100px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-image: url("../images/Ellipse\ 10orangecircle.png");
+      background-size: 100px;
+      color: #707070;
+      font-family: Arial, Helvetica, sans-serif;
+      text-decoration: none;
+  }
+#workNav{
+      height: 100px;
+      width: 100px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-image: url("../images/Ellipse\ 10pinkcircle.png");
+      background-size: 100px;
+      color: #707070;
+      font-family: Arial, Helvetica, sans-serif;
+      text-decoration: none;
+  }
+header{
+      justify-content: center;
+      align-items: center;
+      background-image: url("../images/Vector\ 1navbackground.png");
+      background-size: cover;
+      background-position: center;
+      background-repeat: none;
+      display: flex;
+      width: 100%;
+  }
+h1{
+    color: black;
+    text-align: center;
+    font-size: 28px;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+}
+h2{
+    color: black;
+    font-size: 28px;
+font-family: 'Playfair Display', serif;
+}
+p{
+    color: black;
+    font-size: 14px;
+    font-family: 'Work Sans', sans-serif;
+    text-decoration: none;
+}
+.lead{
+    text-align: center;
+}
+.descriptionwemind{
+    text-align: center;
+}
+.wemindCase{
+    background-color: #F7F2F2;
+    padding: 20px 20px;
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button{
+    background-color:#F4C8B7;
+    border-radius:20px;
+    border: none;
+    padding: 16px 32px;
+    cursor: pointer;
+    font-size: 14px;
+    color: black;
+    font-weight: medium;
+}
+.internalnavbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#F5F5F1;
+}
+
+.btn-secondary {
+    background-color: #F4C8B7;
+    border-radius: 20px;
+    border: none;
+    padding: 16px 32px;
+    cursor: pointer;
+    font-size: 14px;
+    color: black;
+    font-weight: medium;
+}
+#carouselExampleIndicators{
+    background-color: white;
+    background-position: center;
+    background-repeat: repeat-x;
+    background-size: 50%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 50px;
+}
+
+.columns-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 50px;
+    margin: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: justify;
+  }
+  
+  .column {
+    flex: 1;
+  }
+
+  
+footer ul{
+    width: 100%;
+    background-color:#F5F5F1;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding-inline-start: 0px;
+}
+footer li{
+    list-style: none;
+    padding: 40px;
+} 
