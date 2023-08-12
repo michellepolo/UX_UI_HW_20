@@ -74,6 +74,10 @@ h1{
     font-family: 'Playfair Display', serif;
     font-weight: bold;
 }
+.underline{
+  display: inline-block;
+  background-color: #FFE5E8;
+}
 h2{
     color: black;
     font-size: 28px;
@@ -170,6 +174,20 @@ button{
     .columns-container {
       flex-direction: column;
     }
+    .container {
+      flex-direction: column;
+      max-width: 100%;
+      height: auto;
+      }
+    .wemindCase{
+      flex-direction: column;
+    }
+    .col{
+      flex-direction: column;
+    }
+    .define-phase{
+      flex-direction: column;
+    }
   }
   
   .columns-container {
@@ -186,7 +204,6 @@ button{
 
   #empathize-container {
     text-align: center;
-    margin: 50px;
   }
 
   .protopersona {
@@ -225,9 +242,41 @@ button{
 }
 .grid-item {
     padding: 10px;
-    display: flex;
   }
- 
+
+.row{
+  padding: 50px;
+}
+
+.empathaze-phase{
+  background-image: url("../images/brown\ elipse.png");
+  background-repeat: no-repeat;
+  background-position: right center; /* Adjust the background position */
+  background-size: auto 10%; /* Adjust the background size */
+}
+
+.define-phase{
+  background-image: url("../images/pink\ 30\ elipse.png");
+  background-repeat: no-repeat;
+  background-position: left center; /* Adjust the background position */
+  background-size: auto 50%; /* Adjust the background size */
+}
+
+.ideate-phase {
+  background-image: url("../images/clear\ elipse.png");
+  background-repeat: no-repeat;
+  background-position: right center; /* Adjust the background position */
+  background-size: auto 50%; /* Adjust the background size */
+}
+
+.userpersona{
+  padding: 50px;
+}
+.sketching, .prototype, .testingph {
+    padding: 50px;
+}
+
+
 /* Here starts the Footer */
 footer ul{
     width: 100%;
