@@ -14,15 +14,9 @@
      <!-- Starts Header -->
     <header>
         <img src="./images/mp-logo-official.png" class="logo" alt="Michelle Polo Logo">
-        <a href="https://michellepolo.github.io/UX_UI_HW19/"></a>
-      <nav>
+        <nav> 
         <div>
-          <p id="skillsNav"><a href="#mySkills-container">Skills</a></p>
-          <p id="storyNav">Story</p>
-        </div>
-        <div>
-          <p id="contactNav"><a href="#contact-container">Contact</a></p>
-          <p id="workNav"><a href="#myWork-container">Work</a></p>
+          <p id="home"><a href="https://michellepolo.github.io/UX_UI_HW19/">Home</a></p>
         </div>
       </nav> 
     </header>
@@ -156,7 +150,7 @@
   </div>
 </div>
 
-<!-- Interview insights -->
+<!-- Interview Affinity Diagram -->
 <section class="affinitydiagram">
 <h1>Affinity Diagram</h1>
 <p>While we were analyzing the interviewees, we made an affinity chart to find out what our users have in common and thus be able to offer them an app that meets their needs.</p>
@@ -209,17 +203,13 @@
 <section id="ideate-container">
   <div class="ideate-phase">
     <h1 class="underline">Ideate Phase</h1>
-      <div class="container">
-        <h2>I like I wish I wonder</h2>
-        <div class="row">
-          <div class="col">
-            <p>Since we already understood better how our users thought and what they were looking for, we made an ideation table creating the I like I wish and what if. This allowed us to understand as users what we were looking for in this application dedicated to mental health.</p>
-          </div>
-          <div class="col">
-            <img src="./images/Ideation wemind.png" alt="Ideation WeMind" width="500" height="auto">
-          </div>
-        </div>
+    <div class="card-ideate">
+      <div class="card-body">
+        <h2 class="card-title">I like I wish I wonder</h2>
+        <p class="card-text">Since we already understood better how our users thought and what they were looking for, we made an ideation table creating the I like I wish and what if. This allowed us to understand as users what we were looking for in this application dedicated to mental health.</p>
       </div>
+      <img src="./images/Ideation wemind.png" alt="Ideation WeMind" width="500" height="auto">
+    </div>
     <!-- Value proposition -->
   <div class="container">
     <h1>Value Proposition</h1>
@@ -337,7 +327,20 @@
       <p>Created and designed by Michelle Polo</p>
     </footer>
 
+    <!-- Scroll to top button -->
+    <button id="scrollToTopBtn" title="Go to top">Top</button>
+
   </body>
       <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    <script>
+      const scrollToTopBtn = document.getElementById("scrollToTopBtn");
+    
+      scrollToTopBtn.addEventListener("click", function () {
+        window.scrollTo({
+          top: 0,
+          behavior: "smooth"
+        });
+      });
+    </script>
 </html>
